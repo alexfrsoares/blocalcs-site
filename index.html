@@ -1,5 +1,112 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blocalcs by Alex</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #0d1117;
+      color: #c9d1d9;
+    }
+    header {
+      background-color: #161b22;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #30363d;
+    }
+    nav a {
+      color: #58a6ff;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1, h2, h3 {
+      color: #58a6ff;
+    }
+    .project {
+      border: 1px solid #30363d;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      background-color: #161b22;
+    }
+    .project a {
+      color: #8ab4f8;
+      margin-right: 1rem;
+    }
+    footer {
+      text-align: center;
+      margin-top: 4rem;
+      padding: 2rem;
+      border-top: 1px solid #30363d;
+      color: #8b949e;
+    }
+  </style>
+</head>
 <body>
-<h1>You are here</h1>
+  <header>
+    <div><strong>Alex</strong></div>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section id="intro">
+      <h1>Hi, I'm Alex 👋</h1>
+      <p>I build clean, modern mobile apps using Swift, SwiftUI, and Kotlin. Welcome to my portfolio.</p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Wings Taking Flight</h3>
+        <p>An educational app built using SwiftUI, Combine, and CoreData.</p>
+        <a href="#">App Store</a>
+        <a href="#">GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>AI Resume Scanner</h3>
+        <p>AI-powered tool to analyze job descriptions and optimize resumes.</p>
+        <a href="#">Live Demo</a>
+        <a href="#">GitHub</a>
+      </div>
+
+      <!-- Add more projects as needed -->
+    </section>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>I'm a Brazilian iOS developer focused on performance, UX, and clean code architecture. I enjoy building tools that are both helpful and elegant.</p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        📧 <a href="mailto:alex@email.com">alex@email.com</a><br>
+        💼 <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a><br>
+        💻 <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Alex. Built with 💙 using GitHub Pages.
+  </footer>
 </body>
 </html>
